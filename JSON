@@ -1,0 +1,23 @@
+var info =  {
+  "nom" : "Heidy",
+  "apelli": "Talero",
+   "fe":[ "noviembre", "cuatro"],
+int : { 
+        interes: "Dibujar", 
+        inte : "Comer",
+        in: "Dormir"
+  }, 
+};
+
+ var sali = "";
+sali +=" Su Nombre es :" + info.nom + "<br/>";
+sali +=" Su Apellido es :" + info.apelli + "<br/>";
+sali +=" Su mes de nacimiento es :" + info.fe[1] + "<br/>";
+
+sali +=" Su Interes favorito es :" + info.int.inte + "<br/>";
+
+
+var element = document.getElementById("ejem1");
+element.innerHTML= sali;
+
+
